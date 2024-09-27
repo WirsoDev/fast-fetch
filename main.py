@@ -1,5 +1,5 @@
 import json
-from app.fast_fech import FAST_FECH
+from app.fast_fetch import FAST_FETCH
 from requests.auth import HTTPBasicAuth
 from colorama import Fore, Style, init
 import pyfiglet
@@ -59,7 +59,7 @@ def main():
 
         auth = prompt_for_auth()
         
-        fetch = FAST_FECH(url, data, auth)
+        fetch = FAST_FETCH(url, data, auth)
         
         if request_type == 'get':
             fetch.get_request()

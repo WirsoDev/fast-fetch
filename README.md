@@ -18,4 +18,4 @@ FAST FETCH is a command-line interface (CLI) tool designed for testing APIs easi
 You can install the required libraries using pip:
 
 ```bash
-pip install requests colorama pyfiglet
+pip install -r requirements.txt

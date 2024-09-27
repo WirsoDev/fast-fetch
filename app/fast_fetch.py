@@ -2,7 +2,7 @@ import requests
 from requests.auth import HTTPBasicAuth
 import json
 
-class FAST_FECH:
+class FAST_FETCH:
     def __init__(self, url, data=None, auth=None):
         self.url = url
         self.data = data
